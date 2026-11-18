@@ -1,4 +1,3 @@
-
 import 'package:bookai_store/core/styles/app_colors.dart';
 import 'package:bookai_store/features/home/presentation/cubit/home_cubit.dart';
 import 'package:bookai_store/features/home/presentation/cubit/home_state.dart';

@@ -1,4 +1,3 @@
-
 import 'package:bookai_store/features/home/data/model/best_seller_book_respons/best_seller_book_respons.dart';
 import 'package:bookai_store/features/home/data/model/best_seller_book_respons/product.dart';
 import 'package:bookai_store/features/home/data/model/slider_respons/slider.dart';
@@ -11,7 +10,7 @@ class HomeCubit extends Cubit<HomeState> {
   HomeCubit() : super(HomeInitialState());
   List<SliderModel> sliderData = [];
   List<Product> bestSellerData = [];
-  
+
   Future<void> getHomeData() async {
     emit(HomeLoadingState());
     await Future.delayed(const Duration(seconds: 2));

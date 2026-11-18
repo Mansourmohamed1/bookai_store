@@ -4,7 +4,7 @@ import 'package:bookai_store/core/services/local/shared_pref.dart';
 import 'package:bookai_store/core/styles/themes.dart';
 import 'package:flutter/material.dart';
 
-void main() async{
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await SharedPref.init();
   DioProvider.init();

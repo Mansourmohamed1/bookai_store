@@ -17,7 +17,10 @@ class _MainAppScreenState extends State<MainAppScreen> {
   int currentIndex = 0;
 
   final List<Widget> pages = [
-    BlocProvider(create: (context) => HomeCubit()..getHomeData(), child: HomeScreen()),
+    BlocProvider(
+      create: (context) => HomeCubit()..getHomeData(),
+      child: HomeScreen(),
+    ),
     HomeScreen(),
     HomeScreen(),
     HomeScreen(),
